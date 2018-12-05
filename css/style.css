@@ -7,14 +7,14 @@ body {
 /* Navigation Bar */
 
 .navbar {
-  height: 50px; /* has no effect */
+  height: 30px; /* has no effect */
   background-color: white;
 }
 
 .navbar li /* try to change "li a" into "".nav-bar li a" */ {
   display: inline;
   padding: 20px;
-  margin-top: 10px; /* is only working for #about */
+  margin-top: 0px; /* is only working for #about */
 }
 
 .navbar li a /* try to change "li a" into "".nav-bar li a" */ {
@@ -29,7 +29,7 @@ body {
 
 #about {
   float: right;
-  padding: 3px;
+  padding: 0px;
   margin-right: 30px;
 }
 
