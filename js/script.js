@@ -1,7 +1,7 @@
 
 $(document).ready(function(){
   $("#btn-cafes").click(function(){
-     alert("something was clicked!");
+     window.location.href='cafes.html';
   });
   $('#btn-libraries').click(function(){
      window.location.href='libraries.html';
