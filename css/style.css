@@ -181,3 +181,8 @@ footer {
     background: #b62f26;
     border-color: #b62f26;
 }
+
+/*CSS for about page header*/
+.about-page-header {
+  font-family: helvetica;
+}
