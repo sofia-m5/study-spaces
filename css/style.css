@@ -7,14 +7,13 @@ body {
 /* Navigation Bar */
 
 .navbar {
-  height: 30px; /* has no effect */
   background-color: #FFEBCD;
 }
 
 .navbar li /* try to change "li a" into "".nav-bar li a" */ {
   display: inline;
   padding: 20px;
-  margin-top: 0px; /* is only working for #about */
+  margin-top: 14px; /* is only working for #about */
 }
 
 .navbar li a /* try to change "li a" into "".nav-bar li a" */ {
@@ -27,7 +26,25 @@ body {
   font-weight: 100;
 }
 
-#about {
+#nav-index {
+  float: left;
+  padding: 0px;
+  margin-right: 30px;
+}
+
+#nav-categories {
+  float: left;
+  padding: 0px;
+  margin-right: 30px;
+}
+
+#nav-map {
+  float: left;
+  padding: 0px;
+  margin-right: 30px;
+}
+
+#nav-about {
   float: right;
   padding: 0px;
   margin-right: 30px;
@@ -73,6 +90,10 @@ a {
   color: white;
   font-weight: bold;
   z-index: 5;
+}
+
+#about-header-text {
+  font-family: "Merriweather", serif;
 }
 
 /* Carousel */
@@ -165,7 +186,8 @@ footer {
   }
 }
 
-/*CSS for social buttons*/
+/* Social Buttons */
+
 #social-buttons button {
     color: white
 }

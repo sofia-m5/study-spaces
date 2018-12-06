@@ -13,31 +13,42 @@
 <body>
   <!-- Navbar -->
   <nav class="navbar navbar-fixed-top">
-   <ul>
-      <li ><a href="index.html">Places<a/></li>
-      <li class="dropdown">
-         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Categories<span class="caret"></span></a>
-         <ul class="dropdown-menu">
-           <li><a href="libraries.html">Libraries</a></li>
-           <li><a href="cafes.html">Cafes</a></li>             <li><a href="other.html">Other</a></li>
-           </ul>
-         </li>
-       <li><a href="map.html">Map</a></li>
-       <li id="about"><a href="about.html">About</a></li>
-     </ul>
-   </nav>
-
+    <ul>
+      <li id="nav-index"><a href="index.html">Find somewhere to study<a/></li>
+      <li id="nav-categories" class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Categories<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="libraries.html">Libraries</a></li>
+            <li><a href="cafes.html">Cafes</a></li>
+            <li><a href="other.html">Other</a></li>
+          </ul>
+        </li>
+      <li id="nav-map"><a href="map.html">Map</a></li>
+      <li id="nav-about"><a href="about.html">About</a></li>
+    </ul>
+  </nav>
+  <!-- Header -->
   <header class="about-page-header">
-  <h1>About</h1>
-  <p>We created this website because for us it is usually difficult to find a place to study where we can be productive. </p>
+    <h1>About</h1>
+    <p id="about-header-text">We created this website to help students in London find a place to study outside of their own uniersity.</p>
   </header>
   <br>
-<!--Contact form-->
+  <!--Contact form-->
   <section id="contact-form">
     <div id="form">
       <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdu7RROvYZ_axDx7MhKxh8iSDFQoX9bePYuURK8I8b4h5wfbQ/viewform?embedded=true" width="100%" height="1200" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
     </div>
   </section>
+  <!-- Footer -->
+  <br/>
+  <footer class="page-footer font-small">
+      <div class="text-center py-3"><p>Site made as part of <i>Code First: Girls</i> introductory coding course.</p></div>
+      <div id="social-buttons" class="text-center">
+        <button class="btn btn-md btn-twitter">Twitter</button>
+        <button class="btn btn-md btn-facebook">Facebook</button>
+        <button class="btn btn-md btn-pinterest">Pinterest</button>
+      </div>
+  </footer>
 </body>
 
 </html>
