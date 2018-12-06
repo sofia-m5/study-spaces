@@ -8,7 +8,7 @@ body {
 
 .navbar {
   height: 30px; /* has no effect */
-  background-color: white;
+  background-color: #FFEBCD;
 }
 
 .navbar li /* try to change "li a" into "".nav-bar li a" */ {
